@@ -40,13 +40,13 @@ const Weather = ({ weather, temp }) => {
             <div>
               <img src="/images/Humidity.png" alt="" />
             </div>
-            <h5>{weather.main.humidity}</h5>
+            <h5>{weather.main.humidity} %</h5>
           </div>
           <div className="flex gap-2 text-sm justify-center items-center">
             <div>
               <img src="/images/Pressure.png" alt="" />
             </div>
-            <h5>{weather.main.pressure}</h5>
+            <h5>{weather.main.pressure} hPa</h5>
           </div>
         </article>
       </section>
